@@ -1,5 +1,9 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #060613;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
 }
