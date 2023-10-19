@@ -15,7 +15,7 @@
     <Link text="Colecciones" />
     <Link text="Festivales" />
     <Link text="Más" />
-    <Link text="⬇️"/>
+    <Link text="⬇"/>
   </nav>
   <div class="end-btns">
     <GreenButton />
@@ -31,6 +31,9 @@
     align-items: center;
     margin: 20px 40px;
     gap: 20px;
+    margin-bottom: 150px;
+    padding-top: none;
+    margin-top: 0;
     
   }
   .end-btns {

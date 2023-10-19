@@ -8,6 +8,7 @@
         width: 130px;
         height: 40px;
         border: 1px solid white;
+        font-weight: bold;
         border-radius: 4px;
     }
 </style>    
