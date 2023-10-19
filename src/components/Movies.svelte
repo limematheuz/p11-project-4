@@ -24,7 +24,7 @@
   });
 </script>
 
-<h3>Tendencias</h3>
+
 <div>
   {#each movies as movie}
     <img
@@ -63,6 +63,25 @@
     object-fit: cover;
     border: none;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+    margin-top: 20px;
   }
+  img{
+    width: 250px;
+    flex-grow: 6;
+    object-fit: cover;
+    opacity: .6;
+    transition: .5s ease;
+    box-shadow: 5px 5px 25px 8px rgba(74, 22, 143, 0.5);
+  }
+  img:hover{
+    cursor: grab;
+    width: 600px;
+    opacity: 1;
+    box-shadow:  inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(76, 13, 94),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);;
+    filter: contrast(100%);
+  }
+
 </style>

@@ -26,21 +26,20 @@
 
 <style>
   header {
+    font-size: 18px;
+    height: 100px;
+    background-color: #060613;
     display: flex;
-    justify-content: flex-start;
+    justify-content: star;
     align-items: center;
-    margin: 20px 40px;
-    gap: 20px;
-    margin-bottom: 150px;
-    padding-top: none;
-    margin-top: 0;
-    
+    gap: 18px;
+    z-index: 999;
   }
   .end-btns {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     margin-left: auto;
-   
+    margin-right: 70px;
   }
 </style>
