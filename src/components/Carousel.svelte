@@ -22,12 +22,12 @@
     </div>
     <button id="left" on:click={rotateLeft}>
         <slot name="=leftControl">
-            <img src={Izquierda}>
+            <img src={Izquierda} alt="">
         </slot>
     </button>
     <button id="right" on:click={rotateRight}>
         <slot name="=leftControl">
-            <img src={Derecha}>
+            <img src={Derecha} alt=""> 
         </slot>
     </button>
 </div>

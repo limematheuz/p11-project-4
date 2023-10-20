@@ -34,7 +34,6 @@
 <style>
   div {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     gap: 20px;
     overflow-x: scroll;
@@ -67,7 +66,6 @@
   img{
     width: 250px;
     flex-grow: 6;
-    object-fit: cover;
     opacity: .6;
     transition: .5s ease;
     box-shadow: 10px 5px 10px rgba(74, 22, 143, 0.5);
