@@ -8,7 +8,7 @@
 
   <Hero />
 
-  <h1>Descúbre</h1>
+  <h1>Descubre</h1>
   <Movies
     url="https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc"
   />
