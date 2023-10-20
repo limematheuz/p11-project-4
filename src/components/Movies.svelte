@@ -1,6 +1,5 @@
 <script>
   import { onMount } from "svelte";
-
   export let url;
 
   const options = {
@@ -24,15 +23,13 @@
   });
 </script>
 
-
 <div>
-  {#each movies as movie}
-    <img
-      src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`}
-      alt="Cover"
-    />
-  {/each}
+    {#each movies as movie}
+    <!--<p><img src={`${movie.overview}`} alt="overview"></p>-->
+      <img src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt="Cover"/>
+    {/each}
 </div>
+
 
 <style>
   div {
@@ -57,6 +54,7 @@
     behavior: smooth;
   }
 
+
   img {
     height: 500px;
     width: 335px;
@@ -72,7 +70,7 @@
     object-fit: cover;
     opacity: .6;
     transition: .5s ease;
-    box-shadow: 5px 5px 25px 8px rgba(74, 22, 143, 0.5);
+    box-shadow: 10px 5px 10px rgba(74, 22, 143, 0.5);
   }
   img:hover{
     cursor: grab;
